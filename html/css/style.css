@@ -45,6 +45,14 @@ Author:
 /* ==============================================================
    NAV
    ============================================================== */
+.fa-yt {
+  background: #FF0000;
+  padding: 13px 16px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
 .nav-menu {
   position: absolute;
   z-index: 1;
@@ -1258,7 +1266,7 @@ footer h3 {
         background: #ccc; }
 
       .about_pia {
-        background: url(../images/about_pia.jpg) no-repeat;
+        background: url(../images/cassie.jpg) center no-repeat;
         -webkit-background-size: cover;
         background-size: cover; }
         .about_pia h1 {
@@ -1274,7 +1282,7 @@ footer h3 {
 
 
 .about_bg {
-  background: url(../images/about-bg.jpg) no-repeat;
+  background: url(../images/cassie.jpg) center/cover no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
   .about_bg h1 {
