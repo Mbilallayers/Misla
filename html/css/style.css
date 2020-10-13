@@ -1013,9 +1013,12 @@ a {
 /* ==============================================================
    FOOTER
    ============================================================== */
+.camp-flyr {
+
+}
 footer {
   background: #ffffff;
-  padding: 60px 0 100px; }
+  padding: 60px 0 0px; }
 
 .subscribe {
   border-bottom: 1px solid #3f3f3f; }
