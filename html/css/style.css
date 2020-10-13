@@ -1006,6 +1006,7 @@ a {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 16px; }
+
   @media (max-width: 767px) {
     .instafeed_img .instafeed_img_overlay span {
       font-size: 12px; } }
@@ -1013,9 +1014,7 @@ a {
 /* ==============================================================
    FOOTER
    ============================================================== */
-.camp-flyr {
 
-}
 footer {
   background: #ffffff;
   padding: 60px 0 0px; }
@@ -3593,6 +3592,10 @@ div.panel {
       color: #292b2c; }
 
 @media (max-width: 574px) {
+  .camp-flyr iframe {
+    width: auto!important;
+    height: 500px;
+  }
   .header-top_login {
     display: none; } }
 
