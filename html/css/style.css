@@ -136,7 +136,10 @@ Author:
 
 .nav-brand2 h2 {
   margin: 0; }
-
+.quick-form {
+    background: #f47424;
+    padding: 50px;
+}
 .navbar-nav > li {
   margin: 85px 10px;
   text-align: center; }
@@ -1077,15 +1080,16 @@ footer {
 .signup_form::placeholder {
   color: #969696; }
 
-.btn-warning {
-  background: #ff9300;
-  border: none;
-  border-radius: 3px;
-  padding: 17px 34px;
-  font-size: 15px;
-  outline: none;
-  cursor: pointer;
-  font-weight: bold; }
+.btn-warning,.btn-black1 {
+    background: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    padding: 17px 34px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold; }
 
 .btn-black.active,
 .btn-black:active,
