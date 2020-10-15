@@ -1082,6 +1082,7 @@ footer {
 
 .btn-warning,.btn-black1 {
     background: #ff9300;
+    color: #fff;
     border: none;
     border-radius: 3px;
     padding: 17px 34px;
