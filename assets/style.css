@@ -32,6 +32,7 @@ Version      : 1.0
 .menu-bg .navbar-nav li:last-child a:hover, .menu-bg .navbar-nav li:last-child.active a {
     color: #FFF;
 }
+
 .about-us-area {padding-bottom: 0!important;}
 @media (min-width: 768px) {
 

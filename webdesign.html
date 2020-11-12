@@ -456,99 +456,13 @@
               <h2>Subscribe to our newsletter!</h2>
             </div>
             <div class="newsletter-from text-center">
-              <form action="/api/contact" method="post">
-                <input required="required" type="email" name="email" placeholder="Email...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-detault btn-light-bg" id="subscribe-btn" name="subscribe" type="submit">Subscribe</button>
-                    </span>
-              </form>
+              <form name="NewsLetter" method="POST" data-netlify="true"> <input required="required"  type="email" name="email" id="email" placeholder="Email..."> <span class="input-group-btn"> <button class="btn btn-detault btn-light-bg" type="submit" name="submit" >Subscribe</button> </span></form>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- END MAILCHIMP AREA -->
-
-    <!-- START BLOG AREA
-    <section id="blog" class="our-blog-area gry-bg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title text-center wow zoomIn">
-                        <h2>Latest News</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-              START SINGLE BLOG POST
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-blog-post">
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/blog/1.jpg" alt="" class="img-responsive" />
-                        </div>
-                        <div class="single-post-content">
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="fa fa-calendar"></i>11 February 2017</a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-comment"></i>15 comments</a>
-                                </li>
-                            </ul>
-                            <h4><a href="#">Where'd The Money Go?</a></h4>
-                            <p> In 2015, Apple made a very public pledge to give $40M to Diversity Efforts. However, within their 10k, there is no sign of this $40M. We called Apple to speak with a Senior Level Executive...</p>
-                            <div class="bolg_footer">
-                                <a class="blog-btn" href="#">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 END SINGLE BLOG POST -->
-    <!-- START SINGLE BLOG POST
-    <div class="col-md-4 col-sm-6">
-        <div class="single-blog-post">
-            <div class="single-blog-thumb">
-                <img src="assets/img/blog/2.jpg" alt="" class="img-responsive" />
-            </div>
-            <div class="single-post-content">
-                <ul class="post-meta">
-                    <li><a href="#"><i class="fa fa-calendar"></i>15 February 2017</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-comment"></i>20 comments</a>
-                    </li>
-                </ul>
-                <h4><a href="#">Engineer In A Year?</a></h4>
-                <p>Have you ever researched how long it takes to become a software engineer? The results show about two to six years in college; however, when you research how long it takes without a degree...</p>
-                <a class="blog-btn" href="#">read more</a>
-            </div>
-        </div>
-    </div>
- END SINGLE BLOG POST
-     START SINGLE BLOG POST
-    <div class="col-md-4 col-sm-6">
-        <div class="single-blog-post">
-            <div class="single-blog-thumb">
-                <img src="assets/img/blog/3.jpg" alt="" class="img-responsive" />
-            </div>
-            <div class="single-post-content">
-                <ul class="post-meta">
-                    <li><a href="#"><i class="fa fa-calendar"></i>17 February 2017</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-comment"></i>30 comments</a>
-                    </li>
-                </ul>
-                <h4><a href="#">You Say What?</a></h4>
-                <p>As of yesterday, I began a unique journey. The dynamic of women helping other women is rather rare these days, but one woman ended my 6 month homeless stint on the streets of Los Angeles, Ca. </p>
-                <a class="blog-btn" href="#">read more</a>
-            </div>
-        </div>
-    </div>
-     END SINGLE BLOG POST
-</div>
-/END ROW
-</div>
-/END CONTAINER
-</section>
-END BLOG AREA -->
 
     <!-- START PARTNER DESIGN AREA -->
     <div class="partner_design_area section-padding">
@@ -671,102 +585,31 @@ END BLOG AREA -->
         <div class="row">
           <div class="col-sm-12">
             <div class="section-title text-center wow zoomIn">
-              <h2>hit us up</h2>
-            </div>
+              <h2>hit us up</h2></div></div></div><div class="row"><div class="col-md-8 col-sm-12"><div class="contact-from">
+        <form action="" method="post">
+          <div class="form-group col-md-6" name="contactForm"  method="POST" data-netlify="true">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name" required="required" />
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-sm-12">
-            <div class="contact-from">
-              <form action="/api/contact" method="post">
-                <div class="form-group col-md-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter Your Name" required="required" />
-                </div>
-                <div class="form-group col-md-6">
-                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter Your Email" required="required" />
-                </div>
-                <div class="form-group col-md-12">
-                  <input type="text" name="subject" class="form-control" id="subject" placeholder="Enter Your Subject">
-                </div>
-                <div class="form-group col-md-12">
-                  <textarea rows="6" name="message" class="form-control" id="message" placeholder="Enter Your Message" required="required"></textarea>
-                </div>
-                <div class="col-md-12">
-                  <button>send message</button>
-                </div>
-              </form>
-            </div>
+          <div class="form-group col-md-6">
+            <input type="email" name="email" class="form-control" id="email" placeholder="Enter Your Email" required="required" />
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="contact-detail">
-              <div class="contact-detail-heading">
-                <h4>contact info</h4>
-              </div>
-              <!-- START SINGLE CONTACT INFO -->
-              <div class="single-contact-detail">
-                <i class="fa fa-map-marker"></i>
-                <h6>address</h6>
-                <p>Los Angeles, California</p>
-              </div>
-              <!-- START SINGLE CONTACT INFO -->
-              <!-- START SINGLE CONTACT INFO -->
-              <!-- <div class="single-contact-detail">
-                  <i class="fa fa-envelope-o"></i>
-                  <h6>email</h6>
-                  <p>HitUsUp@misla.org</p>
-              </div> -->
-              <!-- START SINGLE CONTACT INFO -->
-              <!-- START SINGLE CONTACT INFO -->
-              <div class="single-contact-detail">
-                <i class="fa fa-phone"></i>
-                <h6>phone</h6>
-                <p>+1-424-253-8873</p>
-              </div>
-              <!-- START SINGLE CONTACT INFO -->
-              <!-- START SINGLE CONTACT INFO -->
-              <div class="single-contact-detail">
-                <i class="fa fa-globe"></i>
-                <h6>webiste</h6>
-                <p>www.misla.org</p>
-              </div>
-              <!-- START SINGLE CONTACT INFO -->
-            </div>
+          <div class="form-group col-md-12">
+            <input type="text" name="subject" class="form-control" id="subject" placeholder="Enter Your Subject">
           </div>
-        </div>
+          <div class="form-group col-md-12">
+            <textarea rows="6" name="message" class="form-control" id="message" placeholder="Enter Your Message" required="required"></textarea>
+          </div>
+          <div class="col-md-12"> <button type="submit" name="submit" >send message</button></div>
+        </form>
       </div>
-    </section>
-    <!-- END CONTACT US AREA -->
-
-    <!-- START MAP -->
-    <div class="map"></div>
-    <!-- END MAP -->
-
-    <!-- START FOOTER AREA -->
-    <footer class="footer-area footer-bg section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="footer-text text-center pull-left">
-              <p class="text-muted"><span>MISLA</span> &copy;2017 - All Rights Reserved. Made by MISLA</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="footer-social text-center pull-right">
-              <ul>
-                <li><a href="https://www.facebook.com/MadeinSLA" target="_blank" data-toggle="tooltip" data-placement="top" title="facebook!"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li><a href="https://twitter.com/therealmisla" target="_blank" data-toggle="tooltip" data-placement="top" title="twitter!"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/therealmisla/" target="_blank" data-toggle="tooltip" data-placement="top" title="instagram!"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li><a href="https://www.youtube.com/channel/UC1tt-fn3rdTXJN2LkGgCtrw" target="_blank" data-toggle="tooltip" data-placement="top" title="youtube!"><i class="fa fa-youtube"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
-    </footer>
+        <div class="col-md-4 col-sm-6"><div class="contact-detail"><div class="contact-detail-heading"><h4>contact info</h4></div><div class="single-contact-detail"> <i class="fa fa-map-marker"></i><h6>address</h6><p>Los Angeles, California</p></div><div class="single-contact-detail"> <i class="fa fa-phone"></i><h6>phone</h6><p>
+          <a href="tel:+1-424-253-8873">+1-424-253-8873</a></p></div><div class="single-contact-detail"> <i class="fa fa-globe"></i><h6>webiste</h6><p>
+          <a href="http://misla.org/">www.misla.org</a></p></div></div></div></div></div> </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130653294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1604482565150!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <footer class="footer-area footer-bg section-padding"><div class="container"><div class="row"><div class="col-sm-6"><div class="footer-text text-center pull-left"><p class="text-muted">Copyright &copy;2020 - All Rights Reserved. Made by
+      <a href="http://misla.org/">MISLA</a></p></div></div><div class="col-sm-6"><div class="footer-social text-center pull-right"><ul><li><a href="https://www.facebook.com/MadeinSLA" target="_blank" data-toggle="tooltip" data-placement="top" title="facebook!"><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/therealmisla" target="_blank" data-toggle="tooltip" data-placement="top" title="twitter!"><i class="fa fa-twitter"></i></a></li><li><a href="https://www.instagram.com/therealmisla/" target="_blank" data-toggle="tooltip" data-placement="top" title="instagram!"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.youtube.com/channel/UC1tt-fn3rdTXJN2LkGgCtrw" target="_blank" data-toggle="tooltip" data-placement="top" title="youtube!"><i class="fa fa-youtube"></i></a></li></ul></div></div></div></div> </footer><div class="scroll-to-up"><div class="scrollup"> <i class="fa fa-angle-up"></i></div></div>
+
     <!-- END FOOTER AREA -->
     <!-- START SCROLL TO UP -->
     <div class="scroll-to-up">

@@ -52,7 +52,9 @@ Author:
   width: 44px;
   height: 44px;
 }
-
+.admission_insruction img {
+  margin-bottom: 20px;
+}
 .nav-menu {
   position: absolute;
   z-index: 1;
@@ -1289,6 +1291,10 @@ footer h3 {
           font-size: 42px; } }
 
 
+.about_bg {
+  background: url(../images/codex.jpg) center/cover no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
 .about_bg {
   background: url(../images/codex.jpg) center/cover no-repeat;
   -webkit-background-size: cover;
