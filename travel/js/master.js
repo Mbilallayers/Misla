@@ -1,7 +1,7 @@
 // JavaScript Document
 // Author Name: Saptarang
-// Author URI: http://www.saptarang.org
-// Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+// Author URI: https://www.saptarang.org
+// Themeforest: https://themeforest.net/user/saptarang?ref=saptarang
 // Creation Date: 22 Oct, 2015
 
 
@@ -282,7 +282,7 @@
 				$svg = $svg.attr('class', imgClass+' replaced-svg');
 			}
 
-			// Remove any invalid XML tags as per http://validator.w3.org
+			// Remove any invalid XML tags as per https://validator.w3.org
 			$svg = $svg.removeAttr('xmlns:a');
 
 			// Replace image with new SVG

@@ -300,7 +300,7 @@ var themeConfig = {
         var themeConfigHalloween = this.container.find('select[data-type=halloween]');
         var themeHalloweenLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent-eventbrite/')
+                    .attr('value', 'https://eazzy.me/html/imevent-eventbrite/')
                     .text('Eventbrite version')//.addClass('halloween-settings-link reset-settings-link')
         //)
             ;
@@ -311,7 +311,7 @@ var themeConfig = {
         var themeConfigHalloween = this.container.find('select[data-type=halloween]');
         var themeHalloweenLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent-halloween/')
+                    .attr('value', 'https://eazzy.me/html/imevent-halloween/')
                     .text('Halloween version')//.addClass('halloween-settings-link reset-settings-link')
         //)
             ;
@@ -319,7 +319,7 @@ var themeConfig = {
 
         var themeChristmasLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent-christmas/')
+                    .attr('value', 'https://eazzy.me/html/imevent-christmas/')
                     .text('Christmas version')//.addClass('christmas-settings-link reset-settings-link')
         //)
             ;
@@ -327,7 +327,7 @@ var themeConfig = {
 
         var themeNewYearLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent-new-year/')
+                    .attr('value', 'https://eazzy.me/html/imevent-new-year/')
                     .html('New Year version')//.addClass('new-year-settings-link reset-settings-link')
         //)
             ;
@@ -335,7 +335,7 @@ var themeConfig = {
 
         var themeThanksgivingLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent-thanksgiving/')
+                    .attr('value', 'https://eazzy.me/html/imevent-thanksgiving/')
                     .html('Thanksgiving Day version')//.addClass('thanksgiving-settings-link reset-settings-link')
         //)
             ;
@@ -343,7 +343,7 @@ var themeConfig = {
 
         var themeCircleVersionLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent/index-circle.html')
+                    .attr('value', 'https://eazzy.me/html/imevent/index-circle.html')
                     .html('Circle version')//.addClass('circleversion-settings-link reset-settings-link')
         //)
             ;
@@ -351,7 +351,7 @@ var themeConfig = {
 
         var themeWithoutHexagonLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent/index-wohex.html')
+                    .attr('value', 'https://eazzy.me/html/imevent/index-wohex.html')
                     .html('Without Hexagon version')//.addClass('withouthexagon-settings-link reset-settings-link')
         //)
             ;
@@ -359,7 +359,7 @@ var themeConfig = {
 
         var themeVideBgLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent/index-video.html')
+                    .attr('value', 'https://eazzy.me/html/imevent/index-video.html')
                     .html('Video Background')//.addClass('withouthexagon-settings-link reset-settings-link')
         //)
             ;
@@ -367,7 +367,7 @@ var themeConfig = {
 
         var themeMultipageVersionLink = //$('<li />').append(
                 $('<option />')
-                    .attr('value', 'http://eazzy.me/html/imevent-multipage/')
+                    .attr('value', 'https://eazzy.me/html/imevent-multipage/')
                     .html('Multipage version')//.addClass('multipageversion-settings-link reset-settings-link')
         //)
             ;
@@ -375,7 +375,7 @@ var themeConfig = {
 
         /*var themeBuyLink = $('<li />').append(
          $('<a style="font-weight: 700; color: #ffffff;" />')
-         .attr({'href': 'http://themeforest.net/item/im-event-event-conference-landing-page/8334416?ref=jthemesstudio','title': 'Buy Theme'})
+         .attr({'href': 'https://themeforest.net/item/im-event-event-conference-landing-page/8334416?ref=jthemesstudio','title': 'Buy Theme'})
          .html('Buy Now').addClass('buy-theme-link reset-settings-link')
          );
          themeConfigHalloween.append(themeBuyLink);*/

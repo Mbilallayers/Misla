@@ -3,7 +3,7 @@
 Script  : Script JS
 Version : 1.0
 Author  : Surjith S M
-URI     : http://themeforest.net/user/surjithctly
+URI     : https://themeforest.net/user/surjithctly
 
 Copyright © All rights Reserved
 Surjith S M / @surjithctly
@@ -257,7 +257,7 @@ $(function() {
                 className: 'bg-orange'
             }, {
                 title: 'Click for Google',
-                url: 'http://google.com/',
+                url: 'https://google.com/',
                 start: YM + '-28'
             }]
         });

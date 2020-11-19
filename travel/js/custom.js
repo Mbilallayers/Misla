@@ -1,7 +1,7 @@
 // JavaScript Document
 // Author Name: Saptarang
-// Author URI: http://www.saptarang.org
-// Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+// Author URI: https://www.saptarang.org
+// Themeforest: https://themeforest.net/user/saptarang?ref=saptarang
 // Creation Date: 22 Oct, 2015
 
 /* CUSTOM PARAMETERS */
