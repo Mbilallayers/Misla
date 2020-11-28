@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <form name="quickBytesForm" method="POST" data-netlify="true" class="quick-form mt-5">
+                        <form name="quickBytesForm" method="POST" data-netlify="true" data-toggle="validator" class="quick-form mt-5">
                             <p class="text-white">Fill Out the form!</p>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Name*" name="name" required="" aria-required="true">
@@ -131,10 +131,6 @@
                             <!-- // end .form-group -->
                             <div class="form-group">
                                 <textarea placeholder="What Quick Byte would you like to order?*" class="form-control" name="message" required="" rows="5" aria-required="true"></textarea>
-                            </div>
-                            <!-- // end .form-group -->
-                            <div class="form-group">
-                                <div data-netlify-recaptcha="true"></div>
                             </div>
                             <!-- // end .form-group -->
                             <button type="submit" class="btn btn-black1 mt-4" id="js-contact-btn">SUBMIT</button>
