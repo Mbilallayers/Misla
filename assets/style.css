@@ -34,10 +34,16 @@ Version      : 1.0
 }
 
 .about-us-area {padding-bottom: 0!important;}
+@media (max-width: 1200px) and (min-width: 767px){
+    .mainmenu .navbar-nav li a{ padding:35px 13px!important; }
+}
 @media (min-width: 768px) {
-
+    .navbar-collapse.collapse {
+        float: right;
+        padding: 0;
+    }
     .navbar-nav li:last-child a {
-        padding: 9px 30px!important;
+        padding: 9px 20px!important;
         background: #f37425;
         color: #FFF;
         border-radius: 4px;
@@ -49,6 +55,9 @@ Version      : 1.0
     .navbar-nav li:last-child a:hover {
         color: #fff!important;
         border: 2px solid #f37425;
+    }
+    .p-0 {
+        padding: 0;
     }
 }
 a.item_buy:hover {background-color :#f37425}
