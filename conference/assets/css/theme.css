@@ -1852,6 +1852,11 @@ footer.post-meta .post-categories {display: block;}
 .timeline .post-media {
     border: solid 8px #afb4ba;
     border-radius: 50%;
+    padding: 0;
+}
+.timeline .post-media img{
+    max-width: 110px;
+    max-height: 110px;
 }
 .timeline .post-media.pull-left {margin-right: 60px;}
 @media (max-width: 1024px) {

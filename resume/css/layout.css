@@ -47,6 +47,9 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+header #nav-wrap a {
+    padding: 12px 20px!important;
+}
 header .banner {
    display: inline-block;
    vertical-align: middle;
