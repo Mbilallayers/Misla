@@ -46,7 +46,7 @@ Version      : 1.0
     margin-top: 20px;
 }
 .btn_01:hover,.btn_01:focus {
-    color: #f37425;
+    color: #f37425!important;
     border: 2px solid #FF9800;
     background: transparent;
 }
