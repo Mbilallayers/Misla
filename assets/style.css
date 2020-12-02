@@ -51,8 +51,15 @@ Version      : 1.0
     background: transparent;
 }
 .about-us-area {padding-bottom: 0!important;}
-@media (max-width: 1200px) and (min-width: 767px){
+@media (max-width: 1200px) and (min-width: 768px){
     .mainmenu .navbar-nav li a{ padding:35px 13px!important; }
+}
+@media (max-width: 768px) {
+    .btn_01 {
+        background: #FF9800;
+        padding: 15px 10px;
+        font-size: 10px;
+    }
 }
 @media (min-width: 768px) {
     .navbar-collapse.collapse {
