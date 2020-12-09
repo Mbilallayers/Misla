@@ -177,7 +177,7 @@ Author:
 .navbar-default .navbar-nav > li > a:hover {
   color: #f37425; }
 .fc-direction-ltr .fc-daygrid-event.fc-event-end {
-  background: #f37425;
+  background: #f37425;white-space: inherit;
 }
 .nav .open > a,
 .nav .open > a:focus,

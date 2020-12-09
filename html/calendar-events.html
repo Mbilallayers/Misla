@@ -183,29 +183,41 @@
                 center: 'title',
                 right: 'dayGridMonth,dayGridWeek,dayGridDay'
             },
-            initialDate: '2020-09-12',
+            initialDate: '2020-12-01',
             navLinks: true, // can click day/week names to navigate views
-            editable: true,
-            dayMaxEvents: true, // allow "more" link when too many events
+            editable: false,
+            dayMaxEvents: false, // allow "more" link when too many events
             events: [
                 {
-                    title: 'All Day Event',
-                    start: '2020-09-01'
+                    title: 'Class 1: Real Estate 100\n' +
+                        'Time: 12:30pm-2:30pm\n' +
+                        'Instr: Lisa Puerto',
+                    start: '2020-12-21'
                 },
                 {
-                    title: 'Long Event',
-                    start: '2020-09-07',
-                    end: '2020-09-10'
+                    title: 'Class 2: Graphic Design\n' +
+                        'Time: 3:30pm-5:30pm\n',
+                    start: '2020-12-21'
                 },
+
+                {
+                    title: 'Class 1: Front End Web Dev\n' +
+                        'Time: 12:30pm-2:30pm\n' +
+                        'Instr: Quin Mixon',
+                    start: '2020-12-22'
+                },
+                {
+                    title: 'Class 2: Video Content\n' +
+                        'Time: 3:30pm-5:30pm\n',
+                    start: '2020-12-22'
+                },
+
                 {
                     groupId: 999,
-                    title: 'Repeating Event',
-                    start: '2020-09-09T16:00:00'
-                },
-                {
-                    groupId: 999,
-                    title: 'Repeating Event',
-                    start: '2020-09-16T16:00:00'
+                    title: 'Real Estate 100\n' +
+                        '12:30pm-2:30pm\n' +
+                        'Instr: Lisa Puerto',
+                    start: '2020-12-16T16:00:00'
                 },
                 {
                     title: 'Conference',
