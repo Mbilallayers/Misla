@@ -87,7 +87,15 @@ Version      : 1.0
         });
         /*END PERTNER JS*/
 
+        /*START COUNTER UP JS*/
+        $(".counter-number").counterUp({
+            time: 2000,
+            delay: 10
+        });
         /*END COUNTER UP JS*/
+
+        /*START MIXITUP JS*/
+        $('.work-inner').mixItUp();
         /*END MIXITUP JS*/
 
         /*START MENU HIDE JS*/
